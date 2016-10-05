@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>index</title>
-    <style type="css/main.css"></style>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-  </head>
-  <body>
-    <header>
-        <div class="logo">
-            <a href="#"><img alt="Brand" src="images/logo.jpg" height="67px" width="88px"></a>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>index</title>
+        <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link href="navbar-fixed-top.css" rel="stylesheet">
+        <link href="http://v3.bootcss.com/assets/css/docs.min.css" rel="stylesheet">
+        <link href="http://v3.bootcss.com/assets/css/patch.css" rel="stylesheet">
+        <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="http://v3.bootcss.com/assets/js/docs.min.js"></script>
+        <script src="http://v3.bootcss.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script src="http://v3.bootcss.com/assets/js/ie-emulation-modes-warning.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="http:www.shanghaitech.edu.cn">SHTECH</a>
+                </div>
+                <nav class="">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Index</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="project.html">Project</a></li>
+                        <li><a href="moudle.html">Moudle</a></li>
+                        <li><a href="human_practice.html">Human Practice</a></li>
+                        <li><a href="notebook.html">Notebook</a></li>
+                    </ul>
+                </nav>
+            </div> 
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="bs-docs-section">
+                        <img src="images/poster.png">
+                        <p>顺便这里测试一下中文，人员列表有待进一步完善。</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="navbar">
-          <ul class="navbar">
-            <li><a href="#">Home</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="project.html">Project</a></li>
-            <li><a href="human_practice.html">Human Practice</a></li>
-          </ul>
-        </div>
-    </header>
-    <div class="container light">
-      <div class="main left">
-        <p>Here are our team members:</p>   
-      </div>
-      <div class="image">
-        <img src="images/poster.png">
-      </div>
-      <div class="main left">
-      顺便这里测试一下中文，人员列表有待进一步完善。
-      </div>
-    </div>
-    <div class="container dark">
-      <div class="main">
-        <p>IGEM 2016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Team ShanghaiTechChina_B from SLST, ShanghaiTech University</p>
-      </div>
-    </div>
-  </body>
+        <footer class="bs-docs-footer">
+            <div class="container">
+                <ul class="bs-docs-footer-links">
+                    <li>IGEM2016</li>
+                    <li>ShanghaiTech University</li>
+                    <li>233</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
