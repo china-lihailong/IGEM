@@ -11,6 +11,7 @@ body{background-color:#E7E6D4!important;color:#231F20!important;font-family:Open
 .navbar-header a img{height:40px;}
 .row{}
 .bs-docs-section{}
+.bs-docs-section img{text-align:center;margin:auto;width:800px;}
 .bs-docs-footer{border-top:1px solid #bdc3c7;}
 
 ul.timeline{list-style:none;background:url("../images/tl.png") repeat-y scroll 120px 0 transparent;margin:50px 0;padding:0;}
