@@ -3,7 +3,6 @@
 #sideMenu{display:none;}
 #top_title{display:none;}
 #top_menu_under{display:none}
-#HQ_page h1, h2, h3, h4, h5, h6, p{font-family:inherit;font-size:inherit;}
 
 body{background-color:#E7E6D4!important;color:#231F20!important;font-family:OpenSans,Microsoft Yahei;}
 header.navbar{background-color:#231F20;}
