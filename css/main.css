@@ -3,14 +3,22 @@
 #sideMenu{display:none;}
 #top_title{display:none;}
 #top_menu_under{display:none}
+#HQ_page h1, h2, h3, h4, h5, h6, p{font-family:inherit;font-size:inherit;}
+
 body{background-color:#E7E6D4!important;color:#231F20!important;font-family:OpenSans,Microsoft Yahei;}
-.navbar{background-color:#231F20!important;color:#E7E6D4!important;}
-.navbar nav li a{color:#E7E6D4!important;background-color:#231F20!important;}
-.navbar nav li a:hover{}
+header.navbar{background-color:#231F20;}
+header.navbar div.container{}
+header.navbar div.container nav li{height:90px;}
+header.navbar div.container nav li a{font-size:20px;color:#E7E6D4!important;background-color:#231F20!important;height:90px;line-height:90px;padding-top:0;padding-bottom:0;display:block;}
+header.navbar div.container nav li a:hover{}
+header.navbar div.container nav li ul.dropdown-menu{background-color:#231F20;}
+header.navbar div.container nav li ul.dropdown-menu li{}
 .dropdown-menu{box-shadow:none;padding:0 0;text-align:center;}
 .dropdown-menu li a{}
-.navbar-header a{display:block;margin-top:6px;}
-.navbar-header a img{height:40px;}
+header.navbar div.container div.navbar-header{height:90px;}
+header.navbar div.container div.navbar-header a{display:block;margin-top:15px;}
+header.navbar div.container div.navbar-header a img{height:60px;}
+
 .row{}
 .bs-docs-section{}
 .bs-docs-section img{text-align:center;margin:auto;width:800px;}
