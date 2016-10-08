@@ -1,18 +1,22 @@
  @font-face{font-family:OpenSans; src:url("../fonts/OpenSans-Regular.ttf");}
-#content{width:85%;margin-left:auto;margin-right:auto;}
+#content{width:100%;margin:0;padding:0;background-color:#E7E6D4!important;color:#231F20!important;font-family:OpenSans,Microsoft Yahei;}
 #sideMenu{display:none;}
 #top_title{display:none;}
-
+#top_menu_under{display:none}
 body{background-color:#E7E6D4!important;color:#231F20!important;font-family:OpenSans,Microsoft Yahei;}
-.navbar{background-color:#231F20;}
-.navbar nav li a{color:#E7E6D4;}
-.navbar nav li a:hover{background-color:#231F20;}
+.navbar{background-color:#231F20!important;color:#E7E6D4!important;}
+.navbar nav li a{color:#E7E6D4!important;background-color:#231F20!important;}
+.navbar nav li a:hover{}
+.dropdown-menu{box-shadow:none;padding:0 0;text-align:center;}
+.dropdown-menu li a{}
 .navbar-header a{display:block;margin-top:6px;}
 .navbar-header a img{height:40px;}
 .row{}
 .bs-docs-section{}
 .bs-docs-section img{text-align:center;margin:auto;width:800px;}
 .bs-docs-footer{border-top:1px solid #bdc3c7;}
+.bs-docs-sidebar .nav li a{}
+.bs-docs-sidebar .nav .active a, .bs-docs-sidebar .nav .active:hover a, .bs-docs-sidebar .nav .active:focus > a{color:#231F20;border-left-color:#231F20;}
 
 ul.timeline{list-style:none;background:url("../images/tl.png") repeat-y scroll 120px 0 transparent;margin:50px 0;padding:0;}
 ul.timeline li{position:relative;margin-bottom:20px;}
